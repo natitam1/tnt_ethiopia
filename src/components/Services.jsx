@@ -1,5 +1,6 @@
 import React from "react";
 import assets from "../assets/assets";
+import Title from "./Title";
 
 const Services = () => {
   const servicesData = [
@@ -37,6 +38,11 @@ const Services = () => {
         src={assets.bgImage2}
         className="absolute -top-110 -left-70 -z-1 dark:hidden"
         alt=""
+      />
+      <Title
+        title="How can we help?"
+        desc="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, ipsam!
+      adipisicing elit. Libero, ipsam! adipisicing elit. Libero, ipsam!"
       />
     </div>
   );

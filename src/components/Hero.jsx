@@ -22,6 +22,10 @@ const Hero = () => {
         </span>
         .
       </h1>
+      <p className="text-sm sm:text-lg font-medium text-gray-500 dark:text-white/75 max-w-4/5 sm:max-w-lg pb-3">
+        We focus on building knowledge in a way that inspires confidence,
+        helping every learner grow and succeed.
+      </p>
     </div>
   );
 };

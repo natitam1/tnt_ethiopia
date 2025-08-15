@@ -26,6 +26,14 @@ const Hero = () => {
         We focus on building knowledge in a way that inspires confidence,
         helping every learner grow and succeed.
       </p>
+      <div className="relative">
+        <img src={assets.hero_img} className="w-full max-w-6xl" alt="" />
+        <img
+          src={assets.bgImage1}
+          className="absolute -top-40 -right-40 sm:-top-100 sm:-right-70 -z-1 dark:hidden"
+          alt=""
+        />
+      </div>
     </div>
   );
 };

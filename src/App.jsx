@@ -23,7 +23,7 @@ const App = () => {
       <OurWork />
       <Teams />
       <ContactUs />
-      <Footer />
+      <Footer theme={theme} />
     </div>
   );
 };
